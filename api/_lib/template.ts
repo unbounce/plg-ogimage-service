@@ -20,6 +20,10 @@ function getCss(theme: string, fontSize: string) {
         background = 'black';
         foreground = 'white';
         radial = 'dimgray';
+    } else if (theme === 'valentines'){
+        background = '#ff556e';
+        foreground = 'white';
+        radial = 'dimgray';  
     }
     return `
     @font-face {

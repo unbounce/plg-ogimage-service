@@ -123,7 +123,9 @@ const Toast = ({ show, message }: ToastProps) => {
 const themeOptions: DropdownOption[] = [
     { text: 'Light', value: 'light' },
     { text: 'Dark', value: 'dark' },
+    { text: 'Valentine', value: 'valentines'},
 ];
+
 
 const fileTypeOptions: DropdownOption[] = [
     { text: 'PNG', value: 'png' },
@@ -153,6 +155,7 @@ const imageDarkOptions: DropdownOption[] = [
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
 ];
+
 
 const widthOptions = [
     { text: 'width', value: 'auto' },
